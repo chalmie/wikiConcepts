@@ -2,10 +2,15 @@ h1 {
   text-align: center;
 }
 
-body {
-
-}
-
 .rightCol {
   text-align: right;
+}
+
+#inline {
+  font-weight: bold;
+  color: red;
+}
+
+#dom {
+  max-width: 100%;
 }
