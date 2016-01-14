@@ -9,7 +9,7 @@
     <title>Epicodus Wiki Page</title>
   </head>
   <body>
-    <h1>Attributes</h1>
+    <h1>Arrays</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -42,13 +42,16 @@
           </ul>
         </div>
         <div class="col-md-6">
-          <p>Attributes provide additional information about HTML elements and are included in the tag.</p>
-        <pre>
-&lt;a <strong>href="http://epicodus.com"</strong>&gt;This is a link&lt;/a&gt;
-<br>
-&lt;img <strong>src="w3schools.jpg" width="104" height="142"</strong>&gt;
+          <p>JavaScript arrays are used to store multiple values in a single variable.</p>
+          <p>In the following example we will use a script to display arrays inside a     element with id="demo":</p>
+          <pre>
+&lt;p id="demo">&lt;/p&gt;
 
-        </pre>
+&lt;script&gt;
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+&lt;/script&gt;
+          </pre>
         </div>
         <div class="col-md-3 rightCol">
           <p>Created by
