@@ -1,5 +1,9 @@
 $(document).ready(function() {
-  $("form#exampleForm").submit(function(event) {
-    var testForm = ""
-  }
-)
+  console.log("test");
+  $("div#testForm").submit(function(event) {
+    var testyForm = $("input#exampleForm").val();
+    alert(testyForm);
+
+    event.preventDefault();
+  });
+});
